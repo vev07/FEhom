@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: aqua;
+}
+h2 {
+    padding-left: 15%;    
+}
+h3 {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    color: red;
+    margin: 10px 5px;
+}
+.main {
+    font-size: 25px;
+}
+table {
+   
+    text-align: center;
+    margin-left: 100px;
+    border: 1px solid darkgreen;
+    border-collapse: collapse;
+    
+}
+td, th {
+    border: 1px solid darkgreen;
+  
+}
+img {
+    width: 25px;
+    margin: 10px 10px;
+}
+th {
+    width: 200px;
+}
+.sign {
+    width: 100px;
+}
