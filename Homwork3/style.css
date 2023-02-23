@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+main {
+    width: 600px;
+    height: 600px;
+    background-color: bisque;
+
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red; 
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+    
+}
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    left: 100px;
+    bottom: 300px;   
+}
+.red:hover {
+    transition: calc(0.5s); 
+    transform: scale(1.5) rotate(-45deg); 
+    
+   
+}
+.blue:hover {
+    transition: calc(0.5s); 
+    transform: scale(1.5) rotate(-45deg);
+}
+.green:hover {
+    transition: calc(0.5s); 
+    transform: scale(1.5) rotate(-45deg);
+}
