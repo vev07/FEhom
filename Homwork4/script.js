@@ -2,7 +2,7 @@ const num = prompt("Enter your number");
 console.log(num * 0.1);
 const num1 = prompt("Enter your number");
 const num2 = prompt("Other your number");
-if(num1 > num2) {
+if(num1 < num2) {
     console.log("num1 is smallest -" + num1);
 } else {
     console.log("num2 is smallest -" + num2);
